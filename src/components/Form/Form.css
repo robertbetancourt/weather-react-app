@@ -1,0 +1,109 @@
+form {
+    margin-top: 3rem;
+    margin: 10px auto;
+
+}
+
+form input[name="city"], form input[name="country"]  {
+    background: transparent;
+    color: rgb(139, 11, 11);
+    font-weight: bold;
+    border: 0;
+    border-bottom: 3px solid whitesmoke;
+    border-radius: 0;
+    transition: 1000ms;
+}
+
+form input:focus {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-bottom: 2px solid rgb(139, 11, 11) !important;
+    transition: 1000ms;
+}
+
+form input:active {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-bottom: 2px solid rgb(51, 6, 216) !important;
+    transition: 1000ms;
+}
+
+form button {
+    margin: 7px auto;
+    width: 100px;
+    border-left: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    border-top: 3px solid whitesmoke;
+    border-right: 3px solid whitesmoke;
+    border-radius: 2px;
+    outline: none;
+    transition: 1500ms;
+    background: transparent;
+    font-weight: bold;
+    color: rgb(139, 11, 11);
+}
+
+form button:focus {
+    outline: none;
+}
+
+form button:hover {
+    border-top: 3px solid rgb(139, 11, 11);
+    border-right: 3px solid rgb(139, 11, 11);
+    border-bottom: 3px solid rgb(139, 11, 11);
+    border-left: 3px solid rgb(139, 11, 11);
+    transition: 1000ms;
+    color: white;
+}
+
+@media (min-width: 414px) and (max-width: 414px){
+    form button {
+        width: 350px;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 411px){
+    form button {
+        width: 345px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 340px){
+    form button {
+        width: 257px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 375px){
+    form button {
+        width: 296px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 375px){
+    form button {
+        width: 312px;
+    }
+}
+
+.alert {
+    margin: 10px auto;
+    background: rgba(255, 5, 5, 0.6);
+    width: 70%;
+    transition: 1000ms;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.alert p {
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+
+form input::-webkit-input-placeholder{
+    color: white !important;
+}
+  
+  

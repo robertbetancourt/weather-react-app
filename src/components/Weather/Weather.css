@@ -1,0 +1,35 @@
+h5 img {
+    width: 20%;
+}
+
+.others img {
+    width: 50px;
+    margin: 0px 5px 0px 5px;
+}
+
+.others h6 {
+    margin-left: 11%;
+    margin-right: 11%;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.others h5 {
+    margin-right: 7%;
+    margin-left: 7%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@media (max-width: 360px) {
+    .others h5{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .others h6 {
+        margin-left: 16%;
+        margin-right: 16%;
+    }
+  }
+
