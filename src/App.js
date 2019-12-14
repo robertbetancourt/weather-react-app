@@ -36,13 +36,13 @@ class App extends React.Component {
   getWeather = async(city = 'Verona', country = 'it') => {
 
       if (city && country) {
-        const api_Call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${api_Key}`);
+        const api_Call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${api_Key}`);
         this.setState({
           error: false
         })
         
         const res = await api_Call.json();
-        console.log(res, 'respuesta');
+        // console.log(res, 'respuesta');
 
       if (res.cod === "404") {
         return alert('Invalid City or Country')

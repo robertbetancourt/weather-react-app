@@ -44,7 +44,7 @@ function upperFirst(upper){
 };
 
 function iconReturn(id) {
-    console.log('este', id);
+    // console.log('este', id);
     let result = undefined
     switch (true) {
         case id >= 200 && id <= 232:
@@ -71,7 +71,7 @@ function iconReturn(id) {
         default:
             result = sun
     }
-    console.log('ends', id, result);
+    // console.log('ends', id, result);
     
     return result
 }
